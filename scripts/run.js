@@ -1,4 +1,4 @@
-import hardhat from 'hardhat';
+const hardhat = require('hardhat');
 
 const main = async () => {
   const nftContractFactory = await hardhat.ethers.getContractFactory(
